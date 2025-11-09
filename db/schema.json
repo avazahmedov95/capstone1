@@ -1,0 +1,99 @@
+{
+                    "customers": {
+                        "description": "Stores information about company customers.",
+                        "columns": {
+                            "customer_id": "Unique identifier of the customer (PRIMARY KEY).",
+                            "first_name": "Customer's first name.",
+                            "last_name": "Customer's last name.",
+                            "phone": "Customer's contact phone number.",
+                            "email": "Customer's email address.",
+                            "street": "Customer's street address.",
+                            "city": "Customer's city of residence.",
+                            "state": "Customer's state or region.",
+                            "zip_code": "Customer's postal ZIP code."
+                        }
+                    },
+                    "orders": {
+                        "description": "Contains information about customer orders.",
+                        "columns": {
+                            "order_id": "Unique identifier of the order (PRIMARY KEY).",
+                            "customer_id": "Identifier of the customer who placed the order (FOREIGN KEY).",
+                            "order_status": "Current status of the order (e.g., Shipped, Pending, Cancelled).",
+                            "order_date": "Date when the order was placed.",
+                            "required_date": "Date when the order is required to be delivered.",
+                            "shipped_date": "Date when the order was shipped.",
+                            "store_id": "Identifier of the store that processed the order.",
+                            "staff_id": "Identifier of the staff member responsible for the order."
+                        }
+                    },
+                    "products": {
+                        "description": "List of all available products for sale.",
+                        "columns": {
+                            "product_id": "Unique identifier of the product (PRIMARY KEY).",
+                            "product_name": "Name of the product.",
+                            "brand_id": "Identifier of the product's brand.",
+                            "category_id": "Identifier of the product's category.",
+                            "model_year": "Year the product model was released.",
+                            "list_price": "Retail price of the product."
+                        }
+                    },
+                    "order_items": {
+                        "description": "Contains individual order items for each order.",
+                        "columns": {
+                            "order_id": "Identifier of the order (FOREIGN KEY).",
+                            "item_id": "Item number within the order (PRIMARY KEY in combination with order_id).",
+                            "product_id": "Identifier of the product ordered.",
+                            "quantity": "Quantity of the product in this order item.",
+                            "list_price": "Unit price of the product at the time of the order.",
+                            "discount": "Discount applied to the product (in fraction, e.g., 0.1 = 10%)."
+                        }
+                    },
+                    "staffs": {
+                        "description": "Stores company staff information.",
+                        "columns": {
+                            "staff_id": "Unique identifier of the staff member (PRIMARY KEY).",
+                            "first_name": "Staff member's first name.",
+                            "last_name": "Staff member's last name.",
+                            "email": "Staff member's email address.",
+                            "phone": "Staff member's phone number.",
+                            "active": "Whether the staff member is currently active (1 = yes, 0 = no).",
+                            "store_id": "Identifier of the store where the staff member works.",
+                            "manager_id": "Identifier of the manager supervising the staff member."
+                        }
+                    },
+                    "stores": {
+                        "description": "Contains details about company stores.",
+                        "columns": {
+                            "store_id": "Unique identifier of the store (PRIMARY KEY).",
+                            "store_name": "Name of the store.",
+                            "phone": "Store's contact phone number.",
+                            "email": "Store's contact email.",
+                            "street": "Street address of the store.",
+                            "city": "City where the store is located.",
+                            "state": "State or region of the store.",
+                            "zip_code": "Postal ZIP code of the store."
+                        }
+                    },
+                    "brands": {
+                        "description": "Stores a list of product brands.",
+                        "columns": {
+                            "brand_id": "Unique identifier of the brand (PRIMARY KEY).",
+                            "brand_name": "Name of the brand."
+                        }
+                    },
+                    "categories": {
+                        "description": "Stores product categories.",
+                        "columns": {
+                            "category_id": "Unique identifier of the category (PRIMARY KEY).",
+                            "category_name": "Name of the product category."
+                        }
+                    },
+                    "stocks": {
+                        "description": "Tracks product quantities in each store.",
+                        "columns": {
+                            "store_id": "Identifier of the store (FOREIGN KEY).",
+                            "product_id": "Identifier of the product (FOREIGN KEY).",
+                            "quantity": "Quantity of the product available in the store."
+                        }
+                    }
+                }

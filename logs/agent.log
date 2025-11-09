@@ -1,0 +1,456 @@
+2025-11-09 20:05:44,991 | INFO     | Agent | Schema loaded successfully from db/schema.json
+2025-11-09 20:05:47,645 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:05:47,661 | INFO     | semantic_kernel.connectors.ai.open_ai.services.open_ai_handler | OpenAI usage: CompletionUsage(completion_tokens=13, prompt_tokens=1194, total_tokens=1207, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:06:28,175 | INFO     | Agent | Schema loaded successfully from db/schema.json
+2025-11-09 20:06:32,802 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:06:32,815 | INFO     | semantic_kernel.connectors.ai.open_ai.services.open_ai_handler | OpenAI usage: CompletionUsage(completion_tokens=64, prompt_tokens=1199, total_tokens=1263, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:09:23,082 | INFO     | Agent | Schema loaded successfully from db/schema.json
+2025-11-09 20:09:25,755 | INFO     | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:09:25,766 | INFO     | semantic_kernel.connectors.ai.open_ai.services.open_ai_handler | OpenAI usage: CompletionUsage(completion_tokens=45, prompt_tokens=1199, total_tokens=1244, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:17:35,942 | INFO     | Schema loaded successfully from db/schema.json
+2025-11-09 20:17:39,632 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:17:39,644 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=24, prompt_tokens=1202, total_tokens=1226, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:17:39,645 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 20:17:39,645 | INFO     | Calling GitHubPlugin-CloseIssue function with args: {"issue_number":2,"arguments":{}}
+2025-11-09 20:17:39,648 | INFO     | Function GitHubPlugin-CloseIssue invoking.
+2025-11-09 20:17:39,648 | INFO     | [GitHub] CLOSE_ISSUE: #2
+2025-11-09 20:17:41,173 | INFO     | [GitHub] SUCCESS: Issue #2 closed
+2025-11-09 20:17:41,175 | INFO     | Function GitHubPlugin-CloseIssue succeeded.
+2025-11-09 20:17:41,175 | INFO     | Function completed. Duration: 1.527174s
+2025-11-09 20:17:42,495 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:17:42,499 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=33, prompt_tokens=1244, total_tokens=1277, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=1152))
+2025-11-09 20:27:17,145 | INFO     | Schema loaded successfully from db/schema.json
+2025-11-09 20:27:19,113 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:27:19,128 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=21, prompt_tokens=286, total_tokens=307, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:27:19,129 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 20:27:19,130 | INFO     | Calling LoggerPlugin-GetLogs function with args: {"minutes":1,"arguments":{}}
+2025-11-09 20:27:19,135 | INFO     | Function LoggerPlugin-GetLogs invoking.
+2025-11-09 20:27:19,141 | INFO     | Function LoggerPlugin-GetLogs succeeded.
+2025-11-09 20:27:19,142 | INFO     | Function completed. Duration: 0.006914s
+2025-11-09 20:27:21,777 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:27:21,778 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=168, prompt_tokens=564, total_tokens=732, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:28:57,523 | INFO     | Schema loaded successfully from db/schema.json
+2025-11-09 20:28:59,734 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:28:59,748 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=24, prompt_tokens=289, total_tokens=313, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:28:59,749 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 20:28:59,749 | INFO     | Calling GitHubPlugin-CloseIssue function with args: {"issue_number":1,"arguments":{}}
+2025-11-09 20:28:59,753 | INFO     | Function GitHubPlugin-CloseIssue invoking.
+2025-11-09 20:28:59,753 | INFO     | [GitHub] CLOSE_ISSUE: #1
+2025-11-09 20:29:01,330 | INFO     | [GitHub] SUCCESS: Issue #1 closed
+2025-11-09 20:29:01,333 | INFO     | Function GitHubPlugin-CloseIssue succeeded.
+2025-11-09 20:29:01,333 | INFO     | Function completed. Duration: 1.580053s
+2025-11-09 20:29:04,690 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:29:04,692 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=55, prompt_tokens=331, total_tokens=386, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:33:29,724 | INFO     | Schema loaded successfully from db/schema.json
+2025-11-09 20:33:32,059 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:33:32,085 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=36, prompt_tokens=298, total_tokens=334, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:33:32,086 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 20:33:32,086 | INFO     | Calling GitHubPlugin-CreateIssue function with args: {"title":"Bug in sales report","body":"The sales report is not updating correctly.","arguments":{}}
+2025-11-09 20:33:32,091 | INFO     | Function GitHubPlugin-CreateIssue invoking.
+2025-11-09 20:33:32,092 | INFO     | [GitHub] CREATE_ISSUE: Bug in sales report
+2025-11-09 20:33:33,086 | INFO     | [GitHub] SUCCESS: Issue #5 created
+2025-11-09 20:33:33,089 | INFO     | Function GitHubPlugin-CreateIssue succeeded.
+2025-11-09 20:33:33,089 | INFO     | Function completed. Duration: 0.997676s
+2025-11-09 20:33:34,372 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:33:34,374 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=58, prompt_tokens=376, total_tokens=434, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:34:24,888 | INFO     | Schema loaded successfully from db/schema.json
+2025-11-09 20:34:26,946 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:34:26,963 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=38, prompt_tokens=300, total_tokens=338, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:34:26,963 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 20:34:26,964 | INFO     | Calling GitHubPlugin-CreateIssue function with args: {"title":"Bug in sales report2","body":"The sales report is not updating correctly2.","arguments":{}}
+2025-11-09 20:34:26,968 | INFO     | Function GitHubPlugin-CreateIssue invoking.
+2025-11-09 20:34:26,968 | INFO     | [GitHub] CREATE_ISSUE: Bug in sales report2
+2025-11-09 20:34:28,178 | INFO     | [GitHub] SUCCESS: Issue #6 created
+2025-11-09 20:34:28,180 | INFO     | Function GitHubPlugin-CreateIssue succeeded.
+2025-11-09 20:34:28,180 | INFO     | Function completed. Duration: 1.212608s
+2025-11-09 20:34:31,756 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:34:31,758 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=41, prompt_tokens=380, total_tokens=421, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:35:35,931 | INFO     | Schema loaded successfully from db/schema.json
+2025-11-09 20:35:38,019 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:35:38,043 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=33, prompt_tokens=285, total_tokens=318, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:35:38,044 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 20:35:38,045 | INFO     | Calling GitHubPlugin-CreateIssue function with args: {"title":"Edit body of issue #2","body":"In Progress","arguments":{}}
+2025-11-09 20:35:38,052 | INFO     | Function GitHubPlugin-CreateIssue invoking.
+2025-11-09 20:35:38,053 | INFO     | [GitHub] CREATE_ISSUE: Edit body of issue #2
+2025-11-09 20:35:39,141 | INFO     | [GitHub] SUCCESS: Issue #7 created
+2025-11-09 20:35:39,144 | INFO     | Function GitHubPlugin-CreateIssue succeeded.
+2025-11-09 20:35:39,145 | INFO     | Function completed. Duration: 1.092290s
+2025-11-09 20:35:41,074 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:35:41,077 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=55, prompt_tokens=360, total_tokens=415, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:36:18,818 | INFO     | Schema loaded successfully from db/schema.json
+2025-11-09 20:36:20,773 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:36:20,788 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=27, prompt_tokens=285, total_tokens=312, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:36:20,789 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 20:36:20,789 | INFO     | Calling GitHubPlugin-CloseIssue function with args: {"issue_number":2,"arguments":{"body":"In Progress"}}
+2025-11-09 20:36:20,793 | INFO     | Function GitHubPlugin-CloseIssue invoking.
+2025-11-09 20:36:20,793 | INFO     | [GitHub] CLOSE_ISSUE: #2
+2025-11-09 20:36:21,848 | INFO     | [GitHub] SUCCESS: Issue #2 closed
+2025-11-09 20:36:21,851 | INFO     | Function GitHubPlugin-CloseIssue succeeded.
+2025-11-09 20:36:21,851 | INFO     | Function completed. Duration: 1.058344s
+2025-11-09 20:36:23,194 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:36:23,196 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=36, prompt_tokens=330, total_tokens=366, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:37:08,257 | INFO     | Schema loaded successfully from db/schema.json
+2025-11-09 20:37:10,490 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:37:10,505 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=24, prompt_tokens=285, total_tokens=309, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:37:10,506 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 20:37:10,506 | INFO     | Calling GitHubPlugin-CloseIssue function with args: {"issue_number":6,"arguments":{}}
+2025-11-09 20:37:10,510 | INFO     | Function GitHubPlugin-CloseIssue invoking.
+2025-11-09 20:37:10,510 | INFO     | [GitHub] CLOSE_ISSUE: #6
+2025-11-09 20:37:11,916 | INFO     | [GitHub] SUCCESS: Issue #6 closed
+2025-11-09 20:37:11,919 | INFO     | Function GitHubPlugin-CloseIssue succeeded.
+2025-11-09 20:37:11,919 | INFO     | Function completed. Duration: 1.409169s
+2025-11-09 20:37:14,161 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:37:14,164 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=65, prompt_tokens=327, total_tokens=392, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:39:39,997 | INFO     | Schema loaded successfully from db/schema.json
+2025-11-09 20:39:43,865 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:39:43,876 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=77, prompt_tokens=288, total_tokens=365, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:41:01,318 | INFO     | Schema loaded successfully from db/schema.json
+2025-11-09 20:41:03,542 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:41:03,560 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=34, prompt_tokens=330, total_tokens=364, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:41:03,561 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 20:41:03,562 | INFO     | Calling GitHubPlugin-EditIssue function with args: {"issue_number":7,"title":"","body":"YEYEYEYEYE","arguments":{}}
+2025-11-09 20:41:03,566 | INFO     | Function GitHubPlugin-EditIssue invoking.
+2025-11-09 20:41:05,078 | INFO     | Function GitHubPlugin-EditIssue succeeded.
+2025-11-09 20:41:05,079 | INFO     | Function completed. Duration: 1.512177s
+2025-11-09 20:41:06,497 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:41:06,499 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=30, prompt_tokens=423, total_tokens=453, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:50:11,383 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:50:11,398 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=41, prompt_tokens=303, total_tokens=344, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 20:50:11,398 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 20:50:11,399 | INFO     | Calling GitHubPlugin-EditIssue function with args: {"issue_number":7,"title":"(no title change)","body":"YEYEYEYEYEoooo","arguments":{}}
+2025-11-09 20:50:11,402 | INFO     | Function GitHubPlugin-EditIssue invoking.
+2025-11-09 20:50:11,403 | INFO     | [GitHub] EDIT_ISSUE: #7
+2025-11-09 20:50:12,818 | INFO     | [GitHub] SUCCESS: Issue #7 updated
+2025-11-09 20:50:12,820 | INFO     | Function GitHubPlugin-EditIssue succeeded.
+2025-11-09 20:50:12,820 | INFO     | Function completed. Duration: 1.417458s
+2025-11-09 20:50:15,456 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 20:50:15,462 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=37, prompt_tokens=362, total_tokens=399, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 21:41:56,164 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 21:41:56,183 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=34, prompt_tokens=294, total_tokens=328, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 21:41:56,184 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 21:41:56,184 | INFO     | Calling DatabasePlugin-GetSchema function with args: {"arguments": {}}
+2025-11-09 21:41:56,189 | INFO     | Function DatabasePlugin-GetSchema invoking.
+2025-11-09 21:41:56,189 | INFO     | [Database] SCHEMA_REQUEST: all tables
+2025-11-09 21:41:56,190 | INFO     | Function DatabasePlugin-GetSchema succeeded.
+2025-11-09 21:41:56,190 | INFO     | Function completed. Duration: 0.000595s
+2025-11-09 21:42:04,245 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 21:42:04,248 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=188, prompt_tokens=1126, total_tokens=1314, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 21:46:21,556 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 21:46:21,566 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=32, prompt_tokens=295, total_tokens=327, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 21:46:21,566 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 21:46:21,567 | INFO     | Calling DatabasePlugin-SelectQuery function with args: {"query":"SELECT * FROM orders ORDER BY order_date DESC LIMIT 5","arguments":{}}
+2025-11-09 21:46:21,567 | INFO     | Function DatabasePlugin-SelectQuery invoking.
+2025-11-09 21:46:21,567 | INFO     | [Database] SELECT: SELECT * FROM orders ORDER BY order_date DESC LIMIT 5
+2025-11-09 21:46:21,584 | INFO     | [Database] RESULT: 5 rows fetched
+2025-11-09 21:46:21,585 | INFO     | Function DatabasePlugin-SelectQuery succeeded.
+2025-11-09 21:46:21,585 | INFO     | Function completed. Duration: 0.017751s
+2025-11-09 21:46:28,782 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 21:46:28,964 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=257, prompt_tokens=538, total_tokens=795, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 21:50:22,171 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 21:50:22,184 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=32, prompt_tokens=295, total_tokens=327, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 21:50:22,185 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 21:50:22,186 | INFO     | Calling DatabasePlugin-SelectQuery function with args: {"query":"SELECT * FROM orders ORDER BY order_date DESC LIMIT 5","arguments":{}}
+2025-11-09 21:50:22,186 | INFO     | Function DatabasePlugin-SelectQuery invoking.
+2025-11-09 21:50:22,186 | INFO     | [Database] SELECT: SELECT * FROM orders ORDER BY order_date DESC LIMIT 5
+2025-11-09 21:50:22,191 | INFO     | [Database] RESULT: 5 rows fetched
+2025-11-09 21:50:22,191 | INFO     | Function DatabasePlugin-SelectQuery succeeded.
+2025-11-09 21:50:22,192 | INFO     | Function completed. Duration: 0.005317s
+2025-11-09 21:50:25,094 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 21:50:25,097 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=289, prompt_tokens=538, total_tokens=827, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 21:53:53,380 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 21:53:53,384 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=32, prompt_tokens=295, total_tokens=327, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 21:53:53,386 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 21:53:53,387 | INFO     | Calling DatabasePlugin-SelectQuery function with args: {"query":"SELECT * FROM orders ORDER BY order_date DESC LIMIT 5","arguments":{}}
+2025-11-09 21:53:53,388 | INFO     | Function DatabasePlugin-SelectQuery invoking.
+2025-11-09 21:53:53,388 | INFO     | [Database] SELECT: SELECT * FROM orders ORDER BY order_date DESC LIMIT 5
+2025-11-09 21:53:53,393 | INFO     | [Database] RESULT: 5 rows fetched
+2025-11-09 21:53:53,393 | INFO     | Function DatabasePlugin-SelectQuery succeeded.
+2025-11-09 21:53:53,393 | INFO     | Function completed. Duration: 0.004705s
+2025-11-09 21:53:57,268 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 21:53:57,271 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=257, prompt_tokens=538, total_tokens=795, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:03:11,669 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:03:11,671 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=32, prompt_tokens=304, total_tokens=336, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:03:11,671 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:03:11,672 | INFO     | Calling DatabasePlugin-SelectQuery function with args: {"query":"SELECT * FROM orders ORDER BY order_date DESC LIMIT 5","arguments":{}}
+2025-11-09 22:03:11,672 | INFO     | Function DatabasePlugin-SelectQuery invoking.
+2025-11-09 22:03:11,672 | INFO     | [Database] SELECT: SELECT * FROM orders ORDER BY order_date DESC LIMIT 5
+2025-11-09 22:03:11,675 | INFO     | [Database] RESULT: 5 rows fetched
+2025-11-09 22:03:11,676 | INFO     | Function DatabasePlugin-SelectQuery succeeded.
+2025-11-09 22:03:11,676 | INFO     | Function completed. Duration: 0.003764s
+2025-11-09 22:03:17,225 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:03:17,233 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=318, prompt_tokens=547, total_tokens=865, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:04:43,929 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:04:43,932 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=33, prompt_tokens=303, total_tokens=336, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:04:43,933 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:04:43,933 | INFO     | Calling DatabasePlugin-SelectQuery function with args: {"query":"SELECT * FROM orders ORDER BY order_date DESC LIMIT 5;","arguments":{}}
+2025-11-09 22:04:43,934 | INFO     | Function DatabasePlugin-SelectQuery invoking.
+2025-11-09 22:04:43,934 | INFO     | [Database] SELECT: SELECT * FROM orders ORDER BY order_date DESC LIMIT 5;
+2025-11-09 22:04:43,937 | INFO     | [Database] RESULT: 5 rows fetched
+2025-11-09 22:04:43,938 | INFO     | Function DatabasePlugin-SelectQuery succeeded.
+2025-11-09 22:04:43,938 | INFO     | Function completed. Duration: 0.003979s
+2025-11-09 22:04:49,455 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:04:49,458 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=316, prompt_tokens=547, total_tokens=863, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:05:18,697 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:05:18,699 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=17, prompt_tokens=302, total_tokens=319, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:05:18,700 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:05:18,700 | INFO     | Calling DatabasePlugin-GetSchema function with args: {"arguments":{}}
+2025-11-09 22:05:18,700 | INFO     | Function DatabasePlugin-GetSchema invoking.
+2025-11-09 22:05:18,700 | INFO     | [Database] SCHEMA_REQUEST: all tables
+2025-11-09 22:05:18,701 | INFO     | Function DatabasePlugin-GetSchema succeeded.
+2025-11-09 22:05:18,701 | INFO     | Function completed. Duration: 0.000403s
+2025-11-09 22:05:23,347 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:05:23,348 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=291, prompt_tokens=1134, total_tokens=1425, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:05:50,186 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:05:50,189 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=19, prompt_tokens=302, total_tokens=321, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:05:50,190 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:05:50,190 | INFO     | Calling DatabasePlugin-GetSchema function with args: {"arguments":{"query":"customers"}}
+2025-11-09 22:05:50,191 | INFO     | Function DatabasePlugin-GetSchema invoking.
+2025-11-09 22:05:50,191 | INFO     | [Database] SCHEMA_REQUEST: all tables
+2025-11-09 22:05:50,191 | INFO     | Function DatabasePlugin-GetSchema succeeded.
+2025-11-09 22:05:50,191 | INFO     | Function completed. Duration: 0.000524s
+2025-11-09 22:05:52,947 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:05:52,950 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=149, prompt_tokens=1136, total_tokens=1285, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:07:56,717 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:07:56,719 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=56, prompt_tokens=302, total_tokens=358, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:18:13,780 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:18:13,808 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=35, prompt_tokens=303, total_tokens=338, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:18:13,809 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:18:13,810 | INFO     | Calling GitHubPlugin-EditIssue function with args: {"issue_number":7,"title":"","body":"YEYEYEYEYEoooo","arguments":{}}
+2025-11-09 22:18:13,814 | INFO     | Function GitHubPlugin-EditIssue invoking.
+2025-11-09 22:18:13,815 | INFO     | [GitHub] EDIT_ISSUE: #7
+2025-11-09 22:18:14,837 | INFO     | [GitHub] SUCCESS: Issue #7 updated
+2025-11-09 22:18:14,839 | INFO     | Function GitHubPlugin-EditIssue succeeded.
+2025-11-09 22:18:14,839 | INFO     | Function completed. Duration: 1.024167s
+2025-11-09 22:18:16,579 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:18:16,581 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=35, prompt_tokens=356, total_tokens=391, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:21:22,128 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:21:22,141 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=32, prompt_tokens=300, total_tokens=332, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:21:22,142 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:21:22,142 | INFO     | Calling DatabasePlugin-SelectQuery function with args: {"query":"SELECT * FROM orders ORDER BY order_date DESC LIMIT 5","arguments":{}}
+2025-11-09 22:21:22,146 | INFO     | Function DatabasePlugin-SelectQuery invoking.
+2025-11-09 22:21:22,146 | INFO     | [Database] SELECT: SELECT * FROM orders ORDER BY order_date DESC LIMIT 5
+2025-11-09 22:21:22,148 | INFO     | [Database] RESULT: 5 rows fetched
+2025-11-09 22:21:22,148 | INFO     | Function DatabasePlugin-SelectQuery succeeded.
+2025-11-09 22:21:22,149 | INFO     | Function completed. Duration: 0.002749s
+2025-11-09 22:21:26,937 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:21:26,940 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=307, prompt_tokens=543, total_tokens=850, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:21:51,029 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:21:51,031 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=19, prompt_tokens=552, total_tokens=571, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:21:51,031 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:21:51,032 | INFO     | Calling DatabasePlugin-GetSchema function with args: {"arguments":{"query":"brands"}}
+2025-11-09 22:21:51,032 | INFO     | Function DatabasePlugin-GetSchema invoking.
+2025-11-09 22:21:51,032 | INFO     | [Database] SCHEMA_REQUEST: all tables
+2025-11-09 22:21:51,033 | INFO     | Function DatabasePlugin-GetSchema succeeded.
+2025-11-09 22:21:51,033 | INFO     | Function completed. Duration: 0.000741s
+2025-11-09 22:21:52,957 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:21:52,959 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=41, prompt_tokens=1386, total_tokens=1427, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:22:06,775 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:22:06,777 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=21, prompt_tokens=1398, total_tokens=1419, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=1280))
+2025-11-09 22:22:06,777 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:22:06,778 | INFO     | Calling LoggerPlugin-GetLogs function with args: {"minutes":10,"arguments":{}}
+2025-11-09 22:22:06,778 | INFO     | Function LoggerPlugin-GetLogs invoking.
+2025-11-09 22:22:06,787 | INFO     | Function LoggerPlugin-GetLogs succeeded.
+2025-11-09 22:22:06,787 | INFO     | Function completed. Duration: 0.009559s
+2025-11-09 22:22:15,370 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:22:15,371 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=1331, prompt_tokens=3052, total_tokens=4383, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=1408))
+2025-11-09 22:22:38,070 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:22:38,073 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=87, prompt_tokens=3061, total_tokens=3148, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=2816))
+2025-11-09 22:28:46,122 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:28:46,137 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=115, prompt_tokens=299, total_tokens=414, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:29:12,759 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:29:12,786 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=57, prompt_tokens=295, total_tokens=352, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:29:43,888 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:29:43,900 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=40, prompt_tokens=317, total_tokens=357, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:29:43,901 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:29:43,901 | INFO     | Calling GitHubPlugin-CreateIssue function with args: {"title":"Bug in sales report","body":"There is a discrepancy in the sales report for Q1.","arguments":{}}
+2025-11-09 22:29:43,904 | INFO     | Function GitHubPlugin-CreateIssue invoking.
+2025-11-09 22:29:43,904 | INFO     | [GitHub] CREATE_ISSUE: Bug in sales report
+2025-11-09 22:29:45,327 | INFO     | [GitHub] SUCCESS: Issue #8 created
+2025-11-09 22:29:45,329 | INFO     | Function GitHubPlugin-CreateIssue succeeded.
+2025-11-09 22:29:45,330 | INFO     | Function completed. Duration: 1.425914s
+2025-11-09 22:29:47,165 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:29:47,166 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=49, prompt_tokens=399, total_tokens=448, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:31:28,977 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:31:28,980 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=19, prompt_tokens=3099, total_tokens=3118, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:31:28,981 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:31:28,981 | INFO     | Calling GitHubPlugin-ListIssues function with args: {"arguments":{}}
+2025-11-09 22:31:28,982 | INFO     | Function GitHubPlugin-ListIssues invoking.
+2025-11-09 22:31:30,208 | INFO     | Function GitHubPlugin-ListIssues succeeded.
+2025-11-09 22:31:30,208 | INFO     | Function completed. Duration: 1.225818s
+2025-11-09 22:31:31,822 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:31:31,825 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=58, prompt_tokens=3156, total_tokens=3214, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=3072))
+2025-11-09 22:33:21,372 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:33:21,389 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=68, prompt_tokens=3166, total_tokens=3234, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=3072))
+2025-11-09 22:33:21,390 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:33:21,390 | INFO     | Calling DatabasePlugin-SelectQuery function with args: {"query":"SELECT b.brand_id, b.brand_name, COUNT(p.product_id) AS product_count FROM brands b JOIN products p ON b.brand_id = p.brand_id GROUP BY b.brand_id, b.brand_name ORDER BY product_count DESC LIMIT 5","arguments":{}}
+2025-11-09 22:33:21,391 | INFO     | Function DatabasePlugin-SelectQuery invoking.
+2025-11-09 22:33:21,391 | INFO     | [Database] SELECT: SELECT b.brand_id, b.brand_name, COUNT(p.product_id) AS product_count FROM brands b JOIN products p ON b.brand_id = p.brand_id GROUP BY b.brand_id, b.brand_name ORDER BY product_count DESC LIMIT 5
+2025-11-09 22:33:21,403 | INFO     | [Database] RESULT: 5 rows fetched
+2025-11-09 22:33:21,404 | INFO     | Function DatabasePlugin-SelectQuery succeeded.
+2025-11-09 22:33:21,404 | INFO     | Function completed. Duration: 0.012912s
+2025-11-09 22:33:23,679 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:33:23,685 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=60, prompt_tokens=3297, total_tokens=3357, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=3200))
+2025-11-09 22:41:03,624 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:41:03,627 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=10, prompt_tokens=324, total_tokens=334, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:42:52,270 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:42:52,273 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=10, prompt_tokens=324, total_tokens=334, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:43:12,806 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:43:12,810 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=54, prompt_tokens=338, total_tokens=392, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:43:12,810 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:43:12,811 | INFO     | Calling DatabasePlugin-SelectQuery function with args: {"query":"SELECT brand, SUM(sales) as total_sales FROM sales WHERE YEAR(sale_date) = 2018 GROUP BY brand ORDER BY total_sales DESC LIMIT 5;","arguments":{}}
+2025-11-09 22:43:12,811 | INFO     | Function DatabasePlugin-SelectQuery invoking.
+2025-11-09 22:43:12,811 | INFO     | [Database] SELECT: SELECT brand, SUM(sales) as total_sales FROM sales WHERE YEAR(sale_date) = 2018 GROUP BY brand ORDER BY total_sales DESC LIMIT 5;
+2025-11-09 22:43:12,813 | ERROR    | [Database] ❌ ERROR: no such table: sales
+2025-11-09 22:43:12,814 | INFO     | Function DatabasePlugin-SelectQuery succeeded.
+2025-11-09 22:43:12,814 | INFO     | Function completed. Duration: 0.002623s
+2025-11-09 22:43:14,602 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:43:14,603 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=46, prompt_tokens=413, total_tokens=459, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:43:34,225 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:43:34,235 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=10, prompt_tokens=324, total_tokens=334, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:44:44,610 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:44:44,613 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=46, prompt_tokens=340, total_tokens=386, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:44:44,613 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:44:44,614 | INFO     | Calling DatabasePlugin-SelectQuery function with args: {"query":"SELECT store_id, COUNT(order_id) AS order_count FROM orders GROUP BY store_id ORDER BY order_count DESC LIMIT 5;","arguments":{}}
+2025-11-09 22:44:44,614 | INFO     | Function DatabasePlugin-SelectQuery invoking.
+2025-11-09 22:44:44,614 | INFO     | [Database] SELECT: SELECT store_id, COUNT(order_id) AS order_count FROM orders GROUP BY store_id ORDER BY order_count DESC LIMIT 5;
+2025-11-09 22:44:44,618 | INFO     | [Database] RESULT: 3 rows fetched
+2025-11-09 22:44:44,618 | INFO     | Function DatabasePlugin-SelectQuery succeeded.
+2025-11-09 22:44:44,618 | INFO     | Function completed. Duration: 0.003980s
+2025-11-09 22:44:46,554 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:44:46,557 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=87, prompt_tokens=416, total_tokens=503, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:48:25,693 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:48:25,696 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=10, prompt_tokens=324, total_tokens=334, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:48:35,020 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:48:35,022 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=48, prompt_tokens=339, total_tokens=387, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:48:35,022 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:48:35,022 | INFO     | Calling DatabasePlugin-SelectQuery function with args: {"query":"SELECT customer_id, SUM(order_total) AS total_order_value FROM orders GROUP BY customer_id ORDER BY total_order_value DESC LIMIT 10;","arguments":{}}
+2025-11-09 22:48:35,023 | INFO     | Function DatabasePlugin-SelectQuery invoking.
+2025-11-09 22:48:35,023 | INFO     | [Database] SELECT: SELECT customer_id, SUM(order_total) AS total_order_value FROM orders GROUP BY customer_id ORDER BY total_order_value DESC LIMIT 10;
+2025-11-09 22:48:35,024 | ERROR    | [Database] ❌ ERROR: no such column: order_total
+2025-11-09 22:48:35,024 | INFO     | Function DatabasePlugin-SelectQuery succeeded.
+2025-11-09 22:48:35,025 | INFO     | Function completed. Duration: 0.001696s
+2025-11-09 22:48:36,239 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:48:36,241 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=21, prompt_tokens=409, total_tokens=430, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:48:36,242 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:48:36,242 | INFO     | Calling DatabasePlugin-GetSchema function with args: {"query":"orders","arguments":{}}
+2025-11-09 22:48:36,242 | INFO     | Function DatabasePlugin-GetSchema invoking.
+2025-11-09 22:48:36,242 | INFO     | [Database] SCHEMA_REQUEST: orders
+2025-11-09 22:48:36,243 | INFO     | Function DatabasePlugin-GetSchema succeeded.
+2025-11-09 22:48:36,243 | INFO     | Function completed. Duration: 0.000395s
+2025-11-09 22:48:37,356 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:48:37,358 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=22, prompt_tokens=577, total_tokens=599, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:48:37,358 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:48:37,358 | INFO     | Calling DatabasePlugin-GetSchema function with args: {"query":"order_items","arguments":{}}
+2025-11-09 22:48:37,359 | INFO     | Function DatabasePlugin-GetSchema invoking.
+2025-11-09 22:48:37,359 | INFO     | [Database] SCHEMA_REQUEST: order_items
+2025-11-09 22:48:37,359 | INFO     | Function DatabasePlugin-GetSchema succeeded.
+2025-11-09 22:48:37,359 | INFO     | Function completed. Duration: 0.000315s
+2025-11-09 22:48:38,688 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:48:38,690 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=74, prompt_tokens=726, total_tokens=800, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:48:38,690 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:48:38,690 | INFO     | Calling DatabasePlugin-SelectQuery function with args: {"query":"SELECT o.customer_id, SUM(oi.quantity * oi.list_price * (1 - oi.discount)) AS total_order_value FROM orders o JOIN order_items oi ON o.order_id = oi.order_id GROUP BY o.customer_id ORDER BY total_order_value DESC LIMIT 10;","arguments":{}}
+2025-11-09 22:48:38,691 | INFO     | Function DatabasePlugin-SelectQuery invoking.
+2025-11-09 22:48:38,691 | INFO     | [Database] SELECT: SELECT o.customer_id, SUM(oi.quantity * oi.list_price * (1 - oi.discount)) AS total_order_value FROM orders o JOIN order_items oi ON o.order_id = oi.order_id GROUP BY o.customer_id ORDER BY total_order_value DESC LIMIT 10;
+2025-11-09 22:48:38,711 | INFO     | [Database] RESULT: 10 rows fetched
+2025-11-09 22:48:38,711 | INFO     | Function DatabasePlugin-SelectQuery succeeded.
+2025-11-09 22:48:38,712 | INFO     | Function completed. Duration: 0.020944s
+2025-11-09 22:48:41,369 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:48:41,371 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=217, prompt_tokens=915, total_tokens=1132, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:49:13,097 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:49:13,100 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=21, prompt_tokens=924, total_tokens=945, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:49:13,101 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:49:13,101 | INFO     | Calling DatabasePlugin-GetSchema function with args: {"query":"customers","arguments":{}}
+2025-11-09 22:49:13,102 | INFO     | Function DatabasePlugin-GetSchema invoking.
+2025-11-09 22:49:13,102 | INFO     | [Database] SCHEMA_REQUEST: customers
+2025-11-09 22:49:13,102 | INFO     | Function DatabasePlugin-GetSchema succeeded.
+2025-11-09 22:49:13,102 | INFO     | Function completed. Duration: 0.000450s
+2025-11-09 22:49:15,250 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:49:15,252 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=113, prompt_tokens=1063, total_tokens=1176, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:49:15,253 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:49:15,253 | INFO     | Calling DatabasePlugin-SelectQuery function with args: {"query":"SELECT c.customer_id, c.first_name, c.last_name, c.email, c.phone, SUM(oi.quantity * oi.list_price * (1 - oi.discount)) AS total_order_value FROM customers c JOIN orders o ON c.customer_id = o.customer_id JOIN order_items oi ON o.order_id = oi.order_id GROUP BY c.customer_id, c.first_name, c.last_name, c.email, c.phone ORDER BY total_order_value DESC LIMIT 10;","arguments":{}}
+2025-11-09 22:49:15,254 | INFO     | Function DatabasePlugin-SelectQuery invoking.
+2025-11-09 22:49:15,254 | INFO     | [Database] SELECT: SELECT c.customer_id, c.first_name, c.last_name, c.email, c.phone, SUM(oi.quantity * oi.list_price * (1 - oi.discount)) AS total_order_value FROM customers c JOIN orders o ON c.customer_id = o.customer_id JOIN order_items oi ON o.order_id = oi.order_id GROUP BY c.customer_id, c.first_name, c.last_name, c.email, c.phone ORDER BY total_order_value DESC LIMIT 10;
+2025-11-09 22:49:15,272 | INFO     | [Database] RESULT: 10 rows fetched
+2025-11-09 22:49:15,272 | INFO     | Function DatabasePlugin-SelectQuery succeeded.
+2025-11-09 22:49:15,272 | INFO     | Function completed. Duration: 0.018421s
+2025-11-09 22:49:19,449 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:49:19,452 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=398, prompt_tokens=1508, total_tokens=1906, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=1152))
+2025-11-09 22:51:05,023 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:51:05,025 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=39, prompt_tokens=1539, total_tokens=1578, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:51:05,025 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:51:05,026 | INFO     | Calling GitHubPlugin-CreateIssue function with args: {"title":"Test Issue for screenshot","body":"This is a test issue created by the AI assistant.","arguments":{}}
+2025-11-09 22:51:05,026 | INFO     | Function GitHubPlugin-CreateIssue invoking.
+2025-11-09 22:51:05,026 | INFO     | [GitHub] CREATE_ISSUE: Test Issue for screenshot
+2025-11-09 22:51:06,680 | INFO     | [GitHub] SUCCESS: Issue #9 created
+2025-11-09 22:51:06,682 | INFO     | Function GitHubPlugin-CreateIssue succeeded.
+2025-11-09 22:51:06,683 | INFO     | Function completed. Duration: 1.656433s
+2025-11-09 22:51:08,509 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:51:08,512 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=67, prompt_tokens=1620, total_tokens=1687, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=1536))
+2025-11-09 22:51:39,646 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:51:39,655 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=19, prompt_tokens=1629, total_tokens=1648, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=1536))
+2025-11-09 22:51:39,656 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:51:39,658 | INFO     | Calling GitHubPlugin-ListIssues function with args: {"arguments":{}}
+2025-11-09 22:51:39,659 | INFO     | Function GitHubPlugin-ListIssues invoking.
+2025-11-09 22:51:41,183 | INFO     | Function GitHubPlugin-ListIssues succeeded.
+2025-11-09 22:51:41,184 | INFO     | Function completed. Duration: 1.524230s
+2025-11-09 22:51:43,229 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:51:43,232 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=96, prompt_tokens=1694, total_tokens=1790, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=1536))
+2025-11-09 22:52:29,502 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:52:29,504 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=21, prompt_tokens=1706, total_tokens=1727, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 22:52:29,505 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 22:52:29,505 | INFO     | Calling LoggerPlugin-GetLogs function with args: {"minutes":3,"arguments":{}}
+2025-11-09 22:52:29,506 | INFO     | Function LoggerPlugin-GetLogs invoking.
+2025-11-09 22:52:29,521 | INFO     | Function LoggerPlugin-GetLogs succeeded.
+2025-11-09 22:52:29,521 | INFO     | Function completed. Duration: 0.015118s
+2025-11-09 22:52:32,881 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 22:52:32,883 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=235, prompt_tokens=2864, total_tokens=3099, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=1664))
+2025-11-09 23:15:00,070 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 23:15:00,073 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=10, prompt_tokens=324, total_tokens=334, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 23:15:14,623 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 23:15:14,625 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=67, prompt_tokens=337, total_tokens=404, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 23:15:14,626 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 23:15:14,627 | INFO     | Calling DatabasePlugin-SelectQuery function with args: {"query":"SELECT o.order_id, o.order_date, o.total_amount, c.customer_id, c.customer_name, c.email FROM orders o JOIN customers c ON o.customer_id = c.customer_id ORDER BY o.order_date DESC LIMIT 5;","arguments":{}}
+2025-11-09 23:15:14,627 | INFO     | Function DatabasePlugin-SelectQuery invoking.
+2025-11-09 23:15:14,627 | INFO     | [Database] SELECT: SELECT o.order_id, o.order_date, o.total_amount, c.customer_id, c.customer_name, c.email FROM orders o JOIN customers c ON o.customer_id = c.customer_id ORDER BY o.order_date DESC LIMIT 5;
+2025-11-09 23:15:14,629 | ERROR    | [Database] ❌ ERROR: no such column: o.total_amount
+2025-11-09 23:15:14,629 | INFO     | Function DatabasePlugin-SelectQuery succeeded.
+2025-11-09 23:15:14,630 | INFO     | Function completed. Duration: 0.002424s
+2025-11-09 23:15:16,148 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 23:15:16,151 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=63, prompt_tokens=427, total_tokens=490, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 23:15:16,151 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 23:15:16,151 | INFO     | Calling DatabasePlugin-SelectQuery function with args: {"query":"SELECT o.order_id, o.order_date, c.customer_id, c.customer_name, c.email FROM orders o JOIN customers c ON o.customer_id = c.customer_id ORDER BY o.order_date DESC LIMIT 5;","arguments":{}}
+2025-11-09 23:15:16,152 | INFO     | Function DatabasePlugin-SelectQuery invoking.
+2025-11-09 23:15:16,152 | INFO     | [Database] SELECT: SELECT o.order_id, o.order_date, c.customer_id, c.customer_name, c.email FROM orders o JOIN customers c ON o.customer_id = c.customer_id ORDER BY o.order_date DESC LIMIT 5;
+2025-11-09 23:15:16,153 | ERROR    | [Database] ❌ ERROR: no such column: c.customer_name
+2025-11-09 23:15:16,153 | INFO     | Function DatabasePlugin-SelectQuery succeeded.
+2025-11-09 23:15:16,154 | INFO     | Function completed. Duration: 0.001831s
+2025-11-09 23:15:18,493 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 23:15:18,496 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=21, prompt_tokens=513, total_tokens=534, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 23:15:18,496 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 23:15:18,496 | INFO     | Calling DatabasePlugin-GetSchema function with args: {"query":"customers","arguments":{}}
+2025-11-09 23:15:18,497 | INFO     | Function DatabasePlugin-GetSchema invoking.
+2025-11-09 23:15:18,497 | INFO     | [Database] SCHEMA_REQUEST: customers
+2025-11-09 23:15:18,497 | INFO     | Function DatabasePlugin-GetSchema succeeded.
+2025-11-09 23:15:18,497 | INFO     | Function completed. Duration: 0.000302s
+2025-11-09 23:15:19,824 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 23:15:19,826 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=67, prompt_tokens=652, total_tokens=719, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 23:15:19,827 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 23:15:19,827 | INFO     | Calling DatabasePlugin-SelectQuery function with args: {"query":"SELECT o.order_id, o.order_date, c.customer_id, c.first_name, c.last_name, c.email FROM orders o JOIN customers c ON o.customer_id = c.customer_id ORDER BY o.order_date DESC LIMIT 5;","arguments":{}}
+2025-11-09 23:15:19,827 | INFO     | Function DatabasePlugin-SelectQuery invoking.
+2025-11-09 23:15:19,828 | INFO     | [Database] SELECT: SELECT o.order_id, o.order_date, c.customer_id, c.first_name, c.last_name, c.email FROM orders o JOIN customers c ON o.customer_id = c.customer_id ORDER BY o.order_date DESC LIMIT 5;
+2025-11-09 23:15:19,834 | INFO     | [Database] RESULT: 5 rows fetched
+2025-11-09 23:15:19,835 | INFO     | Function DatabasePlugin-SelectQuery succeeded.
+2025-11-09 23:15:19,835 | INFO     | Function completed. Duration: 0.007239s
+2025-11-09 23:15:22,487 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 23:15:22,490 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=206, prompt_tokens=879, total_tokens=1085, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 23:15:55,510 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 23:15:55,512 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=35, prompt_tokens=894, total_tokens=929, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
+2025-11-09 23:15:55,512 | INFO     | processing 1 tool calls in parallel.
+2025-11-09 23:15:55,512 | INFO     | Calling DatabasePlugin-ExecuteNonQuery function with args: {"query":"DELETE FROM customers WHERE email = 'kasha.todd@yahoo.com';","arguments":{}}
+2025-11-09 23:15:55,512 | INFO     | Function DatabasePlugin-ExecuteNonQuery invoking.
+2025-11-09 23:15:55,513 | INFO     | [Database] WRITE: DELETE FROM customers WHERE email = 'kasha.todd@yahoo.com';
+2025-11-09 23:15:55,513 | ERROR    | [Database] ❌ ERROR: Unsafe or restricted query blocked: DELETE FROM customers WHERE email = 'kasha.todd@yahoo.com';
+2025-11-09 23:15:55,513 | INFO     | Function DatabasePlugin-ExecuteNonQuery succeeded.
+2025-11-09 23:15:55,513 | INFO     | Function completed. Duration: 0.000335s
+2025-11-09 23:15:57,508 | INFO     | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-09 23:15:57,511 | INFO     | OpenAI usage: CompletionUsage(completion_tokens=36, prompt_tokens=957, total_tokens=993, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0))
