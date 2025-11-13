@@ -53,12 +53,12 @@ Then open your browser at 👉 [http://localhost:8501](http://localhost:8501)
 
 ## 📸 Assistant in Action  
 Below are screenshots showing how the assistant interacts with the user and performs tasks:  
-![Starting](https://github.com/user-attachments/assets/e5b84a3c-0c5c-479f-bbbd-ed4dfb0f5556)  
-![Chat with DB](https://github.com/user-attachments/assets/fac73d0b-95b9-471b-bbc8-5efcf0d35bbc)  
-![Chat with DB2](https://github.com/user-attachments/assets/f01f5f56-037b-4647-9200-0fcacdc409d9)  
-![Connecting to Github](https://github.com/user-attachments/assets/85703bf3-a12e-4b15-8e8b-d359915ffc07)  
-![Showing logs](https://github.com/user-attachments/assets/2ed62b36-d743-43e0-b34b-8f6dcb55b326)  
-![Protection against unsafe operations](https://github.com/user-attachments/assets/a93546f0-b928-45aa-97a2-cce62fe05a61)  
+![Starting](https://github.com/user-attachments/assets/e5b84a3c-0c5c-479f-bbbd-ed4dfb0f5556?1)  
+![Chat with DB](https://github.com/user-attachments/assets/fac73d0b-95b9-471b-bbc8-5efcf0d35bbc?2)  
+![Chat with DB2](https://github.com/user-attachments/assets/f01f5f56-037b-4647-9200-0fcacdc409d9?3)  
+![Connecting to Github](https://github.com/user-attachments/assets/85703bf3-a12e-4b15-8e8b-d359915ffc07?4)  
+![Showing logs](https://github.com/user-attachments/assets/2ed62b36-d743-43e0-b34b-8f6dcb55b326?5)  
+![Protection against unsafe operations](https://github.com/user-attachments/assets/a93546f0-b928-45aa-97a2-cce62fe05a61?6)  
 
 ## 🧰 Tech Stack  
 - 🐍 **Python 3.11+**  
