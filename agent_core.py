@@ -47,17 +47,7 @@ async def _run_agent_async(message: str, chat: ChatHistory = None) -> str:
         settings=settings,
         kernel=kernel,
     )
-
-    # extract text from response
-    if hasattr(response, "content") and response.content:
-        return response.content.strip()
-    elif hasattr(response, "inner_content") and response.inner_content:
-        return response.inner_content.strip()
-    elif hasattr(response, "items") and response.items:
-        first_item = response.items[0]
-        return getattr(first_item, "text", str(first_item)).strip()
-    else:
-        return str(response)
+    return str(response)
 
 
 def run_agent(message: str, chat: ChatHistory = None) -> str:

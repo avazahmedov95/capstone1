@@ -62,7 +62,7 @@ class DatabasePlugin:
             AgentLogger.log_error("Database", str(e))
             return json.dumps({"error": str(e)})
 
-    @kernel_function(name="ExecuteNonQuery", description="Execute INSERT, UPDATE, or DELETE SQL query.")
+    @kernel_function(name="ExecuteNonQuery", description="Execute INSERT, UPDATE query.")
     async def execute_non_query(self, query: str, arguments: KernelArguments) -> str:
         AgentLogger.log_action("Database", "WRITE", query)
 

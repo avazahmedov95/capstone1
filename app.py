@@ -55,15 +55,12 @@ if prompt := st.chat_input("Type your message..."):
 
     with st.chat_message("assistant"):
         with st.spinner("Thinking..."):
-            try:
-                response = run_agent(prompt, st.session_state.chat_history)
-                st.markdown(response)
-            except Exception as e:
-                response = f"⚠️ Error: {str(e)}"
-                st.error(response)
+            response = run_agent(prompt, st.session_state.chat_history)
 
     st.session_state.messages.append({"role": "assistant", "content": response})
+    st.session_state.chat_history.add_assistant_message(response)
 
+    st.rerun()
 
 # Clear chat button
 if st.button("🧹 Clear chat"):
