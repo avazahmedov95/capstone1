@@ -56,13 +56,13 @@ Below are screenshots showing how the assistant interacts with the user and perf
 
 ![Starting](https://github.com/user-attachments/assets/48364eb4-be18-4b97-89a4-7e7a848e37b1)
 
-![Chat with DB](https://github.com/user-attachments/assets/580946ed-4f1e-410e-85b5-f60f1d702d44)
+![Connecting to Github](https://github.com/user-attachments/assets/0f06f2f5-b2db-4608-9399-ff305a71155c)
 
 ![Chat with DB 2](https://github.com/user-attachments/assets/2b4c117d-1ad9-4dcf-b97b-9792f320a287)
 
-![Connecting to Github](https://github.com/user-attachments/assets/0f06f2f5-b2db-4608-9399-ff305a71155c)
+![Chat with DB](https://github.com/user-attachments/assets/580946ed-4f1e-410e-85b5-f60f1d702d44)
 
-![Showing logs](https://github.com/user-attachments/assets/b60a1356-b524-4ece-9962-9168c11b3307)
+![Starting](https://github.com/user-attachments/assets/48364eb4-be18-4b97-89a4-7e7a848e37b1)
 
 ![Protection against unsafe operations](https://github.com/user-attachments/assets/bcd93611-4824-40db-9c91-d5f77750d9b0)
 
