@@ -54,7 +54,7 @@ Then open your browser at 👉 [http://localhost:8501](http://localhost:8501)
 ## 📸 Assistant in Action  
 Below are screenshots showing how the assistant interacts with the user and performs tasks:
 
-![Starting](https://github.com/user-attachments/assets/48364eb4-be18-4b97-89a4-7e7a848e37b1)
+![Showing logs](https://github.com/user-attachments/assets/b60a1356-b524-4ece-9962-9168c11b3307)
 
 ![Connecting to Github](https://github.com/user-attachments/assets/0f06f2f5-b2db-4608-9399-ff305a71155c)
 
